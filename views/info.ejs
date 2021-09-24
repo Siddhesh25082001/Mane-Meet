@@ -1,0 +1,69 @@
+<!-- This is 'info.ejs' File of Connect - The Info Room Page -->
+
+<%- include('partials/layout') -%> 
+
+    <%- include('partials/header') -%>
+
+    <div class="room info-title">
+        <h2><span><i class="fas fa-user"></i></span> Tell Us about Yourself</h2>
+        <p>This information will help others to recognize you and vice versa</p>
+    </div>
+
+    <section class="info">
+        <div class="part-1">
+            <img src="/images/image9.png" alt="">
+        </div>
+
+        <div class="part-2">
+            <div class="form">
+                <form action="/info/<%= roomId %>" method="post">
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="fname">First Name <span>*</span> </label>
+                                <input type="text" class="form-control" id="fname" name="fname" required>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="lname">Last Name <span>*</span> </label>
+                                <input type="text" class="form-control" id="lname" name="lname" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="email">Email <span>*</span> </label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="phone">Contact No <span>*</span> </label>
+                                <input type="tel" class="form-control" id="phone" name="phone"  required>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="nname">Nickname (for chatting) <span>*</span> </label>
+                                <input type="text" class="form-control" id="nname" name="nname" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <button type="submit" class="btn btn-success">Submit</button>
+                            <input type="reset" value="Cancel" class="btn btn-danger">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <%- include('partials/cards') -%>
+
+    <%- include('partials/footer') -%>

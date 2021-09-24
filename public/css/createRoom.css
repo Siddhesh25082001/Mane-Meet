@@ -1,0 +1,85 @@
+/* This is 'createRoom.css' File of Connect - A CSS File for styling the Modal in Room Page */
+
+/* Importing Poppins Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*
+==================================================================================================================================================================================================
+                                                                        U T I L I T Y       C L A S S E S
+==================================================================================================================================================================================================
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+==================================================================================================================================================================================================
+                                                                        C R E A T E     R O O M     P A G E 
+==================================================================================================================================================================================================
+*/
+
+.form-group {
+    position: relative;
+}
+
+.share{
+    font-size: 12px;
+}
+
+.share, #copyId, #copyUrl {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: min-content;
+    color: #9fa4a8;
+    background-color: white;
+    border-top-color: #ced4da;
+    border-bottom-color: #ced4da;
+    border-right-color: #ced4da;
+    cursor: pointer;
+}
+
+.share:hover, #copyId:hover, #copyUrl:hover {
+    color: #53616e;
+    cursor: pointer;
+}
+
+.share:focus {
+    box-shadow: none !important;
+}
+
+.data {
+    margin-bottom: 50px;
+}
+
+.data .row {
+    margin-bottom: 10px;
+}
+
+.data i {
+    font-size: 30px;
+    color: #7c84ec;
+}
+
+.data .row .col-2 {
+    display: flex;
+    align-self: center;
+}
+
+.join h3 {
+    margin-bottom: 30px;
+}
+
+.close, .close:hover{
+    color: red;
+    border: none;
+    outline: none;
+}

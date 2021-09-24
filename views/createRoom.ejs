@@ -1,0 +1,44 @@
+<!-- This is 'createRoom.ejs' File of Connect - The Create Room Page -->
+
+<%- include('partials/layout') -%> 
+
+    <%- include('partials/header') -%>
+
+    <div class="room">
+        <h2><span><i class="fas fa-home"></i></span> Create Room</h2>
+    </div>
+
+    <section class="create">
+
+        <div class="part-1">
+            <div class="box">      
+                <h3>Here's the link to your meeting</h3>
+                    
+                <div class="part-2">
+                    <p>Copy this link and sent it to the people that you want to connect with. Make sure you save it so that you can use it later. </p>
+                </div>
+    
+                <h3 class="title">Meeting Room Code: </h3>
+                <div class="part-3">
+                    <input type="text" value="<%= roomId %>" class="roomId" id="roomId">
+                    <button class="copyID" onclick="roomID()"><i class="far fa-copy"></i></button>
+                </div>
+
+                <h3 class="title">Meeting Room Url: </h3>
+                <div class="part-4">
+                    <input type="text" value="https://mane-meet.herokuapp.com/info/<%= roomId %>" class="roomId" id="roomURL">
+                    <button class="copyID" onclick="roomURL()"><i class="far fa-copy"></i></button>
+                </div>
+
+                <a href="/info/<%= roomId %>"><button type="submit" class="btn btn-dark my-3">Create</button></a>
+            </div>
+        </div>
+
+        <div class="part-2">
+            <img src="/images/image7.jpg" alt="">
+        </div>
+    </section>
+
+    <%- include('partials/cards') -%>
+
+    <%- include('partials/footer') -%>

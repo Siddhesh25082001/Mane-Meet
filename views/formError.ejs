@@ -1,0 +1,19 @@
+<!-- This is 'formError.ejs' File of Connect - The Form Error Page -->
+
+    <%- include('partials/layout') -%> 
+    <link rel="stylesheet" href="/css/error.css">
+
+    <body>
+        <div class="container">
+            <div class="part-1">
+                <h1>Oops !</h1>
+                <p class="error">Someone in the meeting is using the same <span>User Name, Nick name and Email ID.</span> Please change either of them.</p>
+                <a href="/info/<%= roomId %>"><button type="button" class="btn btn-info">Go Back</button></a>
+            </div>
+            <div class="part-2">
+                <img src="/images/image10.jpg" alt="">
+            </div>
+        </div>
+    </body>
+
+</html>

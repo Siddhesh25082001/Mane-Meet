@@ -1,0 +1,26 @@
+<!-- This is 'joinRoom.ejs' File of Connect - The Join Room Page -->
+
+<%- include('partials/layout') -%> 
+
+    <%- include('partials/header') -%>
+
+    <div class="room">
+        <h2><span><i class="fas fa-door-open"></i></span> Join Room</h2>
+    </div>
+
+    <section class="join">
+        <div class="part-1">
+            <p>Join the room with the room id shared with you to connect with your group.</p>
+            <form action="/joinRoom" method="POST">
+                <input type="text" class="form-control" id="roomId" placeholder="Enter Room Id" name="roomId">
+                <button type="submit" class="btn btn-warning my-3">Join</button>
+            </form>
+        </div>
+        <div class="part-2">
+            <img src="/images/image8.png" alt="">
+        </div>
+    </section>
+
+    <%- include('partials/cards') -%>
+
+    <%- include('partials/footer') -%>

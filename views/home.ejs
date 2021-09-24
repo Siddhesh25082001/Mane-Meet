@@ -1,0 +1,70 @@
+<!-- This is 'home.ejs' File of Connect - The Home Page -->
+
+<%- include('partials/layout') -%> 
+
+    <%- include('partials/header') -%>
+
+    <section id="banner">
+
+        <div id="first" class="odd">
+            <div class="left">
+                <h2>Life’s better when we <span>Connect</span> together</h2>
+                <p>
+                    Now bring colleagues, family and friends together to call, chat, and make plans — all in one place.
+                    <br><br>
+                    Invite anyone with a room id to join your meeting. Increase your productivity and work together in real time with your favorite Office apps, screen sharing and meeting chats.
+                </p>
+                <div class="options">
+                    <a href="/createRoom"><button type="button" class="btn btn-success">Create Room</button></a>
+                    <a href="/joinRoom"><button type="button" class="btn btn-primary">Join Room</button></a>
+                </div>
+            </div>
+            <div class="right">
+                <video src="/images/Video.webm" controls loop autoplay></video>
+            </div>
+        </div>
+
+        <div class="title">
+            <p>Learn what can you do with <span>C</span>onnect</p>
+            <a href="#second"><i class="fas fa-caret-down"></i></a>
+
+        </div>
+
+        <div id="second" class="even">
+            <div class="left">
+                <img src="/images/image2.jpg" alt="">
+            </div>
+            <div class="right">
+                <h2>Video calls that will make you forget you’re apart</h2>
+                <p>
+                    Getting together with people in Connect is almost as fun and as real as it gets without being there in person. Talk all day for free. Create instant video meetings and invite anyone.
+                </p>
+            </div>
+        </div>
+
+        <div id="third" class="odd">
+            <div class="left">
+                <h2>Instant Messaging</h2>
+                <p>
+                    Keep the team connected no matter where work takes you with Connect. Chats that bring plans to life, plan together in chats and get help managing tasks big or small.
+            </div>
+            <div class="right">
+                <img src="/images/image3.jpg" alt="">
+            </div>
+        </div>
+
+        <div id="fourth" class="even">
+            <div class="left">
+                <img src="/images/image4.jpg" alt="">
+            </div>
+            <div class="right">
+                <h2>Screen Sharing</h2>
+                <p>
+                    Enhance meetings and boost productivity by sharing your screen in Connect. Work together from anywhere, on any device, simply by sharing your screen while participating in a Teams call or meeting. Look at content collectively, even when you’re apart.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <%- include('partials/footer') -%>

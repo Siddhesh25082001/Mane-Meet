@@ -1,0 +1,561 @@
+/* This is 'styles.css' File of Connect - A CSS File for styling the remaining pages */
+
+/* Importing Poppins Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*
+==================================================================================================================================================================================================
+                                                                        U T I L I T Y       C L A S S E S
+==================================================================================================================================================================================================
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #111;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #111;
+}
+
+li{
+    list-style: none;
+}
+
+section{
+    width: 100%;
+}
+
+.btn{
+    width: 250px;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: crimson;
+    border-radius: 2px;
+}
+
+/*
+==================================================================================================================================================================================================
+                                                                                    N A V I G A T I O N
+==================================================================================================================================================================================================
+*/
+
+/* Header Section */
+header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 16px;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.4);
+}
+
+header .part-1{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+
+header .part-1 img{
+    width: 60px;
+    height: 60px;
+    margin-right: 8px;
+}
+
+header .part-1 a h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+span{
+    color: crimson;
+    font-size: 40px;
+}
+
+header .part-2{
+    width: 24%;
+    align-self: center;
+}
+
+header .part-2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .part-2 ul li{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 200px;
+}
+
+header .part-2 ul li:hover{
+    background-color: rgb(225, 225, 225);
+    padding: 10px;
+    border-radius: 200px;
+}
+
+/*
+==================================================================================================================================================================================================
+                                                                                H O M E     P A G E
+==================================================================================================================================================================================================
+*/
+
+/* Banner Section */
+#banner{
+    width: 90%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+}
+
+#banner .odd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#banner .odd .left{
+    width: 50%;
+    padding: 14px 28px;
+}
+
+#banner .odd .left h2{
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#banner .odd .left p{
+    padding: 14px 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#banner .odd .right{
+    width: 50%;
+}
+
+#banner .even{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#banner .even .left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#banner .even .left img{
+    width: 600px;
+    height: 400px;
+}
+
+#banner .even .right{
+    width: 50%;
+    padding: 14px 28px;
+}
+
+#banner .even .right h2{
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#banner .even .right p{
+    padding: 14px 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#banner #first .left .options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#banner #first .left .options .btn{
+    width: 250px;
+}
+
+#banner #first .right video{
+    cursor: pointer;
+}
+
+#banner .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+#banner .title p{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#banner .title .fa-caret-down{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/*
+==================================================================================================================================================================================================
+                                                                        C R E A T E     R O O M     P A G E
+==================================================================================================================================================================================================
+*/
+
+.room{
+    width: 90%;
+    margin: 20px auto 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.room h2{
+    color: crimson;
+    font-weight: bold;
+}
+
+.create{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.create .part-1{
+    width: 50%;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create .part-1 img{
+    margin: 20px 0px;
+    width: 450px;
+    height: 350px;
+}
+
+.create .box{
+    align-self: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px;
+    width: 95%;
+    margin: 10px auto;
+}
+
+.create .box h3{
+    font-size: 18px;
+    margin: 3px 0;
+}
+
+.create .box h3{
+    font-weight: bold;
+}
+
+.create .box .part-2{
+    width: 100%;
+    padding: 20px 0px 10px 0px;
+}
+
+.create .box p{
+    font-size: 14px;
+    opacity: 0.8;
+    text-align: justify;
+}
+
+.create .box .part-3, .part-4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.create .box .title{
+    margin: 0;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.create .box .part-3 .roomId{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(225, 225, 225, 0.8);
+    width: 80%;
+}
+
+.create .box .part-3 .copyID{
+    padding: 10px 15px;
+    background-color: rgba(225, 225, 225, 0.8);
+    border: none;
+    outline: none;
+    border-radius: 200px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.create .box .part-4 .roomId{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(225, 225, 225, 0.8);
+    width: 80%;
+}
+
+.create .box .part-4 .copyID{
+    padding: 10px 15px;
+    background-color: rgba(225, 225, 225, 0.8);
+    border: none;
+    outline: none;
+    border-radius: 200px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.create .part-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 0px 20px;
+}
+
+.create .part-2 img{
+    width: 550px;
+    height: 400px;
+}
+
+/*
+==================================================================================================================================================================================================
+                                                                            J O I N     R O O M     P A G E
+==================================================================================================================================================================================================
+*/
+
+.join{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.join .part-1, .part-2{
+    width: 50%;
+}
+
+.join .part-1{
+    padding: 20px 40px;
+}
+
+.join .part-1 p{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.join .part-2 img{
+    width: 550px;
+    height: 400px;
+}
+
+/*
+==================================================================================================================================================================================================
+                                                                            I N F O     P A G E
+==================================================================================================================================================================================================
+*/
+
+.info{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info .part-1, .part-2{
+    width: 50%;
+}
+
+.info .part-1 img{
+    width: 450px;
+    height: 350px;
+}
+
+.info .part-2 .form{
+    padding: 30px 20px;
+    border-radius: 10px;
+    border: 2px solid #111;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.2);
+}
+
+.info .part-2 .form .form-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.info .part-2 .form .form-row .col{
+    margin: 0px 10px;
+}
+
+.info .part-2 .form .form-row .col label{
+    font-weight: bold;
+}
+
+.info .part-2 .form .form-row .col label span{
+    color: crimson;
+    font-size: 18px;
+    opacity: 0.65;
+}
+
+.info-title{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-title p{
+    font-weight: bold;
+}
+
+/*
+==================================================================================================================================================================================================
+                                                                                C A R D S
+==================================================================================================================================================================================================
+*/
+
+.card-items{
+    width: 90%;
+    margin: 15px auto;
+}
+
+.card-items .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-items .cards .info{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 22px rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+
+.card-items .cards .info .fa-video, .fa-desktop, .fa-sms{
+    margin: 10px 0px;
+    font-size: 28px;
+    color: orange;
+}
+
+.card-items .cards .info h5{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0px 15px 0px;
+}
+
+.card-items .cards .info p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.card-items .cards .info:hover{
+    color: #fff;
+    background-color: orange;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.card-items .cards .info:hover .fa-desktop{
+    color: #fff;
+}
+
+.card-items .cards .info:hover .fa-video{
+    color: #fff;
+}
+
+.card-items .cards .info:hover .fa-sms{
+    color: #fff;
+}
+
+
+/*
+==================================================================================================================================================================================================
+                                                                                F O O T E R
+==================================================================================================================================================================================================
+*/
+
+footer{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(225, 225, 225, 0.8);
+    padding: 30px 40px;
+}
+
+footer .main h4{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+footer .main .links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 32px;
+}
+
+footer .main .links .fa-github{
+    color: #333;
+}
+
+footer .main .links .fa-linkedin{
+    color: #0077b5;
+}
+
+footer .main .links .fa-whatsapp{
+    color: #25D366;
+}

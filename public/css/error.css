@@ -1,0 +1,87 @@
+/* This is 'error.css' File of Connect - A CSS File for styling the error pages */
+
+/* Importing Poppins Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*
+==================================================================================================================================================================================================
+                                                                        U T I L I T Y       C L A S S E S
+==================================================================================================================================================================================================
+*/
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body{
+   width: 100%;
+   font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+   width: 8px;
+   cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+   background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+   background: crimson;
+   border-radius: 2px;
+}
+
+/*
+==================================================================================================================================================================================================
+                                                    E R R O R,      F O R M - E R R O R,    C A P A C I T Y - F U L L   P A G E
+==================================================================================================================================================================================================
+*/
+
+.container{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.container .part-1{
+   width: 50%;
+   align-self: center;
+}
+
+.container .part-1 h1{
+   font-weight: bold;
+   font-size: 108px;
+}
+
+.container .part-1 p{
+   padding: 20px 0px;
+   font-size: 32px;
+   opacity: 0.8;
+}
+
+.container .part-1 .error{
+   padding: 20px 0px;
+   font-weight: bold;
+}
+
+.container .part-1 h4{
+   padding-bottom: 20px;
+   color: crimson;
+   font-weight: bold;
+   font-size: 24px;
+}
+
+.container .part-2{
+   padding: 30px 0px;
+   width: 50%;
+}
+
+.container .part-2 img{
+   width: 100%;
+   height: 100%;
+}
