@@ -40,7 +40,7 @@ npm install
 ```
 
 ### Usage
-Start the project locally by running the below command and go to [**http://localhost:3000**](https://localhost:3000)
+Start the project locally by running the below command
 ```
 npm start
 ```
