@@ -26,9 +26,9 @@ git clone https://github.com/Siddhesh25082001/Mane-Meet.git
 ```
 
 ### Pre-requisites
-- NodeJs - You can download it from [here](https://nodejs.org/en/download/)
+- NodeJs 
 
-Verify the installatio by checking the version
+Verify the installation by checking the version
 ```
 node -v 
 npm -v
@@ -46,3 +46,12 @@ npm start
 ```
 
 ### Implementation
+![image](https://user-images.githubusercontent.com/67231450/135885497-ce133f20-b974-401a-9ea2-e64dccd39efd.png)
+  
+![image](https://user-images.githubusercontent.com/67231450/135885566-98712137-8c4f-46ae-b473-ab70135831ff.png)
+
+![image](https://user-images.githubusercontent.com/67231450/135885624-503dd49b-2246-43ea-a635-a51aeb5963eb.png)
+  
+![image](https://user-images.githubusercontent.com/67231450/135885720-8bf8b608-15f0-423a-ae0a-0b0617891af7.png)
+
+
