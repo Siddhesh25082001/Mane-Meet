@@ -34,7 +34,7 @@ node -v
 npm -v
 ```
 ### Installation
-Install all the dependencies just by running a single command
+Install all the dependencies by running just a single command
 ```
 npm install
 ```
