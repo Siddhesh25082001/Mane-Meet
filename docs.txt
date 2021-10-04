@@ -1,1 +1,1 @@
-https://mane-meet.herokuapp.com/ | https://git.heroku.com/mane-meet.git
+https://mane-meet.herokuapp.com/
