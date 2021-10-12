@@ -3,7 +3,7 @@
 **Connect** is a **Video-Chat Conferencing Web Application** that allows users to **connect** with their friends, colleagues and everyone from anywhere in the world at anytime.
 
 The **Web-App** is being deployed on the Heroku server and can be accessed by the following link: 
-[**Connect - A Video-Chat App**](https://mane-meet.herokuapp.com/ "Connect - A Video-Chat App")
+[**Connect - A Video-Chat App**](https://mane-connect.herokuapp.com/ "Connect - A Video-Chat App")
 
 ## Features 
 - Video and Audio Conferencing with Peers
