@@ -71,6 +71,10 @@ npm start
 
 ![Mane-2](https://user-images.githubusercontent.com/67231450/137305147-47d8b2ab-4006-44d2-b804-52a9a763e1a0.JPG)
 
+ > **Meting Room (Whiteboard)** 
+  
+ ![image](https://user-images.githubusercontent.com/67231450/137356937-250a3eb2-5185-4091-b283-6f842e820512.png)
+
 > **Meeting Room (Screen Sharing)**
 
 ![Mane-3](https://user-images.githubusercontent.com/67231450/137305173-1be3b51d-029e-4093-9ed6-6b27d2d5852f.JPG)
